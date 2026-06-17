@@ -85,7 +85,7 @@ c:\TRAINING\GameOpsApp
 ### Prerequisites
 * **Java**: JDK 21
 * **Maven**: Version 3.8+ or wrapper
-* **PostgreSQL** (Optional; by default, tests run on in-memory **H2**)
+* **Database**: Neon DB (Cloud PostgreSQL) configured via [application-neon.properties](file:///c:/TRAINING/GameOpsApp/src/main/resources/application-neon.properties)
 
 ### Run the Automated Tests
 Ensure that the basic logic, suspicion calculations, and matchmaking rules are operating correctly:
@@ -110,5 +110,5 @@ You can use it to:
 * Submit score presets (including normal scores and anomalous profiles designed to trigger the suspicious engine rules).
 * Search matching players or register them into the matchmaking queue.
 * Monitor global and regional leaderboards in real time.
-* Inspect database connection metadata.
-* Access the built-in database consoles and reset seasons.
+* Inspect database connection metadata and link directly to your Neon DB console.
+* Reset leaderboard seasons.
